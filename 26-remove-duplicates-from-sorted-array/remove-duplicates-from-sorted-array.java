@@ -11,9 +11,7 @@ class Solution {
             nums[off+1] = nums[cm];
             off++;
             cm++;
-            count++;
-
-            
+            count++;     
         }
         return count;
         
