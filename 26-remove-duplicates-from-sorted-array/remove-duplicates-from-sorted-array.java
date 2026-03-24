@@ -6,15 +6,13 @@ class Solution {
         while(cm<nums.length){
             if(nums[cm] == nums[cm-1]){
                 cm++;
-                //continue;
+                continue;
             }
-            else{
             nums[off+1] = nums[cm];
             off++;
             cm++;
             count++;
 
-            }
             
         }
         return count;
